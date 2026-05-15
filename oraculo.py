@@ -3,6 +3,8 @@ import pandas as pd
 import sqlite3
 import matplotlib
 import unicodedata
+import zipfile
+import os
 
 # --- 1. FUNÇÃO DE TRATAMENTO DE TEXTO (Acentos e Busca) ---
 def remover_acentos(texto):
